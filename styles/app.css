@@ -17,7 +17,6 @@
     font-family: "Times Roman Italic";
     src: url("../fonts/Times-new-roman-italic.ttf") format("truetype");
 }
-
 .container {
     max-width: 80rem;
     margin-right: auto;
@@ -25,10 +24,11 @@
     padding-right: 1rem;
     padding-left: 1rem;
 }
+/* Header Top */
 
 .header {
 }
-.header-top{
+.header-top {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -53,12 +53,11 @@
 }
 .menu__link {
     text-decoration: none;
-    color: #081D43;
+    color: #081d43;
     padding: 0 1rem;
-    
 }
-.header__link{
-    background-color: #0050C8;
+.header__link {
+    background-color: #0050c8;
     padding: 0.8rem 1.5em;
     color: #fff;
     border-radius: 0.5rem;
@@ -67,38 +66,38 @@
 
 /* Header Bottom */
 
-.header-bottom{
-    margin-top: 6rem;
+.header-bottom {
+    margin-top: 5.5rem;
 }
-.header-content{
+.header-content {
     display: flex;
     align-items: center;
 }
-.header-content__left{
+.header-content__left {
     flex-basis: 50%;
 }
-.header-content__right{
+.header-content__right {
     flex-basis: 50%;
 }
-.header-content__wrapper{
+.header-content__wrapper {
     max-width: 28rem;
 }
-.header-content__title{
-    color: #081D43;
-    font-family: 'TTNorms Medium';
+.header-content__title {
+    color: #081d43;
+    font-family: "TTNorms Medium";
     font-weight: normal;
     line-height: 2.5rem;
 }
-.header-content__text{
-    color: #6C7890;
+.header-content__text {
+    color: #6c7890;
     line-height: 2rem;
 }
-.header-content__links{
+.header-content__links {
     display: flex;
     margin-top: 1.5rem;
 }
-.header-content__link{
-    background-color: #0050C8;
+.header-content__link {
+    background-color: #0050c8;
     padding: 0.8rem 1.5em;
     color: #fff;
     border-radius: 0.5rem;
@@ -108,14 +107,132 @@
     width: 10rem;
     text-align: center;
 }
-.header-content__link:nth-child(1){
-    background-color: #87BC25;
+.header-content__link:nth-child(1) {
+    background-color: #87bc25;
 }
-.header-content__right{
+.header-content__img {
+    width: 100%;
+}
+
+
+/* Start Main */
+
+
+
+/* Works Section */
+.main{
+    padding: 6rem 0;
+}
+.works{
+    text-align: center;
+}
+.works__text{
+    color: #6C7890;
+    margin-bottom: 0;
+}
+.works__title{
+    color: #081D43;
+    margin-top: 0.8rem;
+    font-family: 'TTNorms Medium';
+    font-weight: normal;
+}
+.works-content{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-around;
+}
+.works-content__title{
+    color: #081D43;
+}
+.works-content__text{
+    color: #6C7890;
+    line-height: 2rem;
+    max-width: 16rem;
+}
+.works-img{
+    max-width: 31rem;
+    margin: 0 auto;
+}
+.works-img__img{
+    width: 100%;
+}
+
+/* Person-Comments Section */
+
+
+
+
+.person-comments{
+    background-color: #2F5BEA;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+}
+.person-comments__title{
+    font-family: "TTNorms Medium";
+    font-weight: normal;
+}
+.person-comments__text{
+    font-family: "TTNorms Light";
 
 }
-.header-content__img{
-    width: 100%;
+.comments-container{
+    max-width: 65rem;
+    margin: 3.5rem auto 0 auto;
+
+}
+.comments{
+    display: flex;
+    justify-content: space-between;
+}
+.comment{
+    background-color: #fff;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 18rem;
+    flex-basis: 20rem;
+    
+}
+.comment__content{
+    text-align: left;
+    padding: 1.2rem;
+}
+.comment__body{
+    font-family: 'Times Roman Italic';
+    color: #7E8085;
+    line-height: 1.5rem;
+    margin: 0;
+}
+.comment__info{
+    display: flex;
+    border-top: 1px solid #E8EBEF;
+    padding: 0.8rem 1.2rem;
+    align-items: center;
+}
+.comment__img{
+
+}
+.comment__person{
+    color: #000000;
+    margin: 0 0 0 0.5rem;
+}
+
+
+
+
+.companies{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5rem;
+}
+.companies__img{
+    display: block;
+    margin: 1rem;
 }
 
 
