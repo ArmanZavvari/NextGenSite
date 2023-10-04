@@ -121,7 +121,7 @@
 
 /* Works Section */
 .main{
-    padding: 6rem 0;
+    padding: 1rem 0;
 }
 .works{
     text-align: center;
@@ -221,9 +221,6 @@
     margin: 0 0 0 0.5rem;
 }
 
-
-
-
 .companies{
     display: flex;
     justify-content: space-between;
@@ -233,6 +230,16 @@
 .companies__img{
     display: block;
     margin: 1rem;
+}
+
+.copy-right{
+    color: #6C7890;
+    padding: 1rem 0;
+}
+.copy-right__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
